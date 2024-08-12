@@ -27,7 +27,7 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
-      <UserProfile name="Youness" age="24" bio="Senior developer at ALX" />
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
